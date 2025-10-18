@@ -1,0 +1,1 @@
+# Jean-Barraque-proliferating-series-studied-in-terms-of-permutations-auxiliar-code
