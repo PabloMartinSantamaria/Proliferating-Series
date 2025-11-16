@@ -28,17 +28,27 @@ proliferations that this combination generates, that is, all the new series that
 numbers with the notes (or the elements that we are serializing) in ascending order with respect to the tone-fractions. An usual correspondence would be
 C --> 0, Db --> 1, D --> 2, Eb --> 3...
 And after obtaining all the proliferations in number terms, we only have to apply the inverse correspondence to get our series.
-In this same file, there is also a program that is given a number of notes, a transformation and a transposition, and calculates the proliferations of every possible 
+In this same file, there is also a program that is given a number of notes, a 
+transformation and a transposition, and calculates the proliferations of every possible 
 series of that number of notes, organizing all the information in a collection of files.
 
-The second file, ProliferatingSeries_possiblePermutations, brings a more theoretical information. This program uses the results obtained in the article to calculate
-every possible permutation obtainable by the various methods of proliferating series, yielding as the output a list of all the possible cycle structures, paired
+The second file, ProliferatingSeries_possiblePermutations, brings a more theoretical information. 
+This program uses the results obtained in the article to calculate
+every possible permutation obtainable by the various methods of proliferating series, yielding as the 
+output a list of all the possible cycle structures, paired
 with their order. In particular, it has a program for RI, other for R with a coprime transposition
-and a final one for the general case of R. The former two programs are quite efficient for reasonable numbers of notes, but, since the final case of retrogradation
-with an arbitrary transposition does not have a compact result that caracterizes the possible series, the program utilizes directly the recursive process, which
+and a final one for the general case of R. The former two programs are quite efficient for reasonable numbers 
+of notes, but, since the final case of retrogradation
+with an arbitrary transposition does not have a compact result that caracterizes the possible series, 
+the program utilizes directly the recursive process, which
 is very unefficient. The cases P and I are not included for their simplicity. 
 
-Finally, there is a directory called 
+Finally, there is a folder called Proliferations_data. This folder is the result of executing the program mentioned in 
+the first file for every transformation, every number of notes up to 12 and every possible transposition for each 
+number of notes, organizing the information of every proliferating series. In this folder we can find subfolders called 
+P,I,R,RI, for each transformation. Each subfolder has more subfolders for every number of notes up to 12, and each of those 
+has two subfolders 
+
 
 
 
