@@ -1,8 +1,8 @@
-# Jean-Barraque-proliferating-series-studied-in-terms-of-permutations-auxiliar-code
+# Jean Barraqué proliferating series studied in terms of permutations: auxiliar code
 
-This repository is linked to a paper published in....
+This repository is subordinate to a paper published in [...], available in the link below:
 
-Abstract of the paper:
+# Abstract of the paper:
 
   Barraqué's proliferating series give an interesting turn on the concept of classic serialism 
 by creating a new invariant when it comes to constructing the series: rather than the intervals 
@@ -16,6 +16,9 @@ offer from a mathematical view, which will allow composers to gain much more fam
 them and potentially result in the creation of pieces that take serialism to the next level.
 
 
-# Utility of this repository
+# Utility of this repository:
 
-...
+The code available here is a tool to create and manipulate proliferating series. We can find two main code files: 
+ProliferatingSeries_seriesManipulation and ProliferatingSeries_possiblePermutations, both of which have a .py version 
+with the raw code and a .ipynb with the code and some examples already executed in notebook format. The first file, 
+ProliferatingSeries_seriesManipulation, is the one that can be more useful 
