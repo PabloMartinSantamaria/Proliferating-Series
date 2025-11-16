@@ -47,7 +47,14 @@ Finally, there is a folder called Proliferations_data. This folder is the result
 the first file for every transformation, every number of notes up to 12 and every possible transposition for each 
 number of notes, organizing the information of every proliferating series. In this folder we can find subfolders called 
 P,I,R,RI, for each transformation. Each subfolder has more subfolders for every number of notes up to 12, and each of those 
-has two subfolders 
+has two subfolders, one for the information about cycle structures of permutations and another one for the information about 
+number of proliferations obtained (the second one is actually redundant, since we can obtain the order of a permutation 
+given the lengths of its cycles). Finally, in each of those two folders, we can find .txt files for each transposition 
+of that number of notes, each containing all the possible cycle structures/number of proliferations, and how many series 
+produce each of those. For example, in Proliferations_data/RI/Proliferations_03_notes/Data_Structures/transposition0.txt we 
+will find that, in the context of RI with 4 notes and 0 transpositions, there are 8 series that proliferate into a permutation
+of structure [1,1,2] (which has order 2, meaning just 2 proliferations), and 16 series that proliferate 
+into a permutation of structure [4] (which has order 4).
 
 
 
