@@ -16,7 +16,7 @@ offer from a mathematical view, which will allow composers to gain much more fam
 them and potentially result in the creation of pieces that take serialism to the next level.
 
 
-# Utility of this repository:
+# Puerpose of this repository:
 
 The code available here is a tool to create and manipulate proliferating series. We can find two main code files: 
 ProliferatingSeries_seriesManipulation and ProliferatingSeries_possiblePermutations, both of which have a .py version 
