@@ -24,7 +24,7 @@ with the raw code and a .ipynb with the code and some examples already executed 
 
 The first file, ProliferatingSeries_seriesManipulation, is the one that can be more useful for the average reader, including a composer who wants 
 to use proliferating series in a piece. This code allows us to input a series of our choice, a transformation (P,I,R,RI) and a transposition, and calculate all the 
-proliferations that this combination generates, that is, all the new series that we can use. The series are represented as lists of integer numbers, relating the
+proliferations that this combination generates, that is, all the new series that we can use. The series can be input with the notes itself between quotes (e.g. "A", "C#", "Bb"...) or using numbers.
 numbers with the notes (or the elements that we are serializing) in ascending order with respect to the tone-fractions. An usual correspondence would be
 C --> 0, Db --> 1, D --> 2, Eb --> 3...
 And after obtaining all the proliferations in number terms, we only have to apply the inverse correspondence to get our series.
