@@ -180,8 +180,9 @@ proliferations(Transformation.R,series4,2)
 
 #Currently it will run for all series up to 12 notes, which is quite slow, at least several hours running.
 
-#The completeList folders are occupy several GB for n=12, since they show every possible series, so if you don't want them, just
-#comment (put a # in the beggining of the line) the lines that are highlighted with an arrow <------------
+#The completeList folders are occupy several GB for n=12, since they show every possible series, so if you don't want them
+#just leave it as it is. If you do want them, you can
+#uncomment (remove the # in the beggining of the line) the lines that are highlighted with an arrow <------------
 #The folder Proliferations_data in this repository has the files that running this program creates, including the cases of
 #P and I, and excluding the CompleteList folders.
 
